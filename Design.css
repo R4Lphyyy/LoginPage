@@ -1,0 +1,53 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: url(dota.jpg);
+	background-size: cover;
+	background-position: center;
+	font-family: sans-serif;
+}
+
+.content{
+	margin: 10%;
+	background-color: #0F9D58;
+	padding: 4rem 1rem 4rem 1rem;
+	box-shadow: 0 0 5px 5px rgba(9,9,9,9);
+}
+.signin-text{
+	font-style: solid;
+	font-weight: 800 !important;
+}
+.form-control{
+	display: block;
+	width: 100%;
+	font-size: 1rem;
+	font-weight: 700;
+	line-height: 3;
+	border-color: #00ac96 !important;
+	border-style: solid !important;
+	border-width: 0 0 2px 2 !important;
+	padding: 0px !important;
+	color: #495957;
+	height: auto;
+	border-radius: 0;
+	background-color: #fff5;
+	background-clip: padding-box;
+}	
+.form-control:focus{
+	color: #495957;
+	background-color: #fff;
+	border-color: #fff;
+	outline: 0;
+	box-shadow: none;
+}
+.btn-class{
+	border-color: #fff9;
+	color: #fff;
+
+}
+.btn-class:hover{
+	background-color: #fff;
+	color: #00ac96;
+	background-position: center;
+
+}
